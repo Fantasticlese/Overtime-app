@@ -9,11 +9,10 @@ describe 'navigate' do
   describe 'edit' do
     before do
       @post = FactoryGirl.create(:post)
+      visit edit_post_path(@post)
     end
 
     it 'has a status that can be edited on the form by an admin' do
-      visit edit_post_path(@post)
-      
       choose('post_status_approved')
       click_on "Save"
 
