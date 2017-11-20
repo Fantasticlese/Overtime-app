@@ -24,3 +24,4 @@ x Update the styles for forms
 - Refactor user association integration test in post_spec
 - Refactor post/_form
 - Fix post_spec.rb
+- Fix post_spec.rb:52 to have correct user reference and not require update
