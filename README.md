@@ -17,11 +17,11 @@ x Block non admin and guest users
 
 ## UI:
 x Bootstrap -> formatting
-- Icons from Font Awesome
+x Icons from glyphicons
 x Update the styles for forms
 
 ## Refactor TODOS:
 - Refactor user association integration test in post_spec
-- Refactor post/_form
+x Refactor post/_form for admin user with status
 - Fix post_spec.rb
 - Fix post_spec.rb:52 to have correct user reference and not require update
