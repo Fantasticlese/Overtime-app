@@ -15,13 +15,5 @@ x Block non admin and guest users
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
 
-## UI:
-x Bootstrap -> formatting
-x Icons from glyphicons
-x Update the styles for forms
 
-## Refactor TODOS:
-- Refactor user association integration test in post_spec
-x Refactor post/_form for admin user with status
-- Fix post_spec.rb
-- Fix post_spec.rb:52 to have correct user reference and not require update
+## TODOS:
