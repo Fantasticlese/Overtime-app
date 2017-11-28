@@ -1,0 +1,19 @@
+puts "Meet Bob, he is an angry teenager because he has social media and therefore knows everything." 
+puts "Please try and speak with him won't you?"
+
+loop do
+response = gets.chomp!
+if response.empty?
+  puts "Fine. Be that way."
+  
+  elsif response == response.upcase
+  puts "Whoa, Chill Out!"
+  
+  elsif response.include? "?"
+  puts "...sure"
+  
+  else
+  puts "Whatever"
+  
+end
+end
